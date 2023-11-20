@@ -41,9 +41,9 @@ func main() {
 			if unicode.IsLetter(char) {
 				analysis["letters"]++
 			} else if unicode.IsNumber(char) {
-				analysis["number"]++
+				analysis["numbers"]++
 			} else {
-				analysis["symbol"]++
+				analysis["symbols"]++
 			}
 		}
 	}
